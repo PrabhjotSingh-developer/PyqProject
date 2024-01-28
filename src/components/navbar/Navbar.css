@@ -1,33 +1,3 @@
-/* #0004ff (parent color) */
-
-html {
-  /* now 1rem = 10px  */
-  font-size: 62.5%;
-}
-
-/* variables */
-:root {
-  --padding-inline: 10rem;
-}
-
-/* utilities classes */
-.d-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
 /* navbar */
 .navbar {
   width: 100vw;
@@ -36,16 +6,41 @@ html {
 
 /* navbar-container */
 .navbar-container {
-  padding: 2rem var(--padding-inline);
+  width: 100%;
+  padding: 0.5rem var(--padding-inline);
+  color: #fff;
 }
 
 /* logo */
 .logo {
-  font-size: 2rem;
-  color: #e2edff;
+  font-size: 2.2rem;
+  font-family: var(--font-family-1);
+  font-variant: small-caps;
+  letter-spacing: 0.6px;
+  word-spacing: 2px;
 }
 
 /* nav-links */
+.nav-links {
+  gap: 2rem;
+}
+
 .nav-links li a {
   color: #e2edff;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  font-family: var(--font-family-2);
+  transition: all 0.2s linear;
+}
+
+@media (hover: hover) {
+  .nav-links li a:hover {
+    color: #fff;
+  }
+
+  .nav-links li a.active-nav-link {
+    color: #fff;
+  }
 }
