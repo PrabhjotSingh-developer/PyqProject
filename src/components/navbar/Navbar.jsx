@@ -6,17 +6,18 @@ const Navbar = () => {
 
     <div className={`navbar`}>
         
-        <nav className="navbar-container">
+        <nav className='navbar-container d-flex align-center justify-between'>
 
-            <div className="logo-box"></div>
+            <div className='logo-box'>
+              <h1 className='logo'>Paper Dekho</h1>
+            </div>
 
-            <ul className={`nav-links`}>
+            <ul className='nav-links'>
               <li><a href="">Home</a></li>
               <li><a href="">About</a></li>
               <li><a href="">Contact</a></li>
               <li><a href="">Admin</a></li>
             </ul>
-
 
         </nav>
        

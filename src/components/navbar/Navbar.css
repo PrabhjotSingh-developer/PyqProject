@@ -1,3 +1,51 @@
-.navbar{
-    background-color: red;
+/* #0004ff (parent color) */
+
+html {
+  /* now 1rem = 10px  */
+  font-size: 62.5%;
+}
+
+/* variables */
+:root {
+  --padding-inline: 10rem;
+}
+
+/* utilities classes */
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* navbar */
+.navbar {
+  width: 100vw;
+  background-color: #000180;
+}
+
+/* navbar-container */
+.navbar-container {
+  padding: 2rem var(--padding-inline);
+}
+
+/* logo */
+.logo {
+  font-size: 2rem;
+  color: #e2edff;
+}
+
+/* nav-links */
+.nav-links li a {
+  color: #e2edff;
 }
