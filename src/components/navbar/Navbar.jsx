@@ -8,12 +8,7 @@ const Navbar = () => {
   const {mode,toggleMode} = context;
   console.log(context)
   return (
-<<<<<<< HEAD
-    <div className='navbar'>
-   
-       navbar code
-       {/* <Link to={""}>hello</Link> */}
-=======
+    
 
     <div className={`navbar`}>
         
@@ -31,7 +26,6 @@ const Navbar = () => {
 
         </nav>
        
->>>>>>> ae6ed85c6adedbd6dd35b744273b1abecb2355fd
     </div>
   )
 } 
