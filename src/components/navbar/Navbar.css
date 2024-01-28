@@ -1,7 +1,7 @@
 /* navbar */
 .navbar {
   width: 100vw;
-  background-color: #000180;
+  background-color: var(--primary-bg);
 }
 
 /* navbar-container */
@@ -26,7 +26,7 @@
 }
 
 .nav-links li a {
-  color: #e2edff;
+  color: var(--white-secondary);
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -35,12 +35,10 @@
   transition: all 0.2s linear;
 }
 
+/* working of hover only on pc */
 @media (hover: hover) {
-  .nav-links li a:hover {
-    color: #fff;
-  }
-
+  .nav-links li a:hover,
   .nav-links li a.active-nav-link {
-    color: #fff;
+    color: var(--pure-white);
   }
 }

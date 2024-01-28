@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css"; // css added
+import "./Navbar.css"; // add css
 // import  {Link}  from 'react-router-dom' //anchor gi jagah
 import { useContext } from "react";
 import MyContext from "../../context/data/MyContext.jsx";

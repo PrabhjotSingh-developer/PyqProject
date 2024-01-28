@@ -4,6 +4,9 @@
 /* variables */
 :root {
   --parent-color: #0004ff;
+  --primary-bg: #000180;
+  --pure-white: #fff;
+  --white-secondary:#e2edff;
   --padding-inline: 10rem;
 
   --font-family-1: "Nunito", sans-serif;
@@ -49,7 +52,6 @@ a {
 .justify-between {
   justify-content: space-between;
 }
-
 
 /* light mode */
 .light-mode {

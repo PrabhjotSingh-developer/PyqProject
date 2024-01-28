@@ -1,0 +1,19 @@
+/* footer */
+footer {
+  background-color: var(--primary-bg);
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  padding: 0.5rem var(--padding-inline);
+  color: var(--white-secondary);
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  font-family: var(--font-family-2);
+  letter-spacing: 0.4px;
+  word-spacing: 2px;
+  font-weight: 500;
+}
