@@ -1,1 +1,13 @@
-  
+/* variables */
+
+:root {
+  --primary-bg: #fff;
+}
+
+.light-mode {
+  background-color: var(--primary-bg);
+}
+
+.dark-mode {
+  background-color: var(--primary-bg);
+}
