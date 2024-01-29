@@ -14,7 +14,10 @@ const Navbar = () => {
       <nav className="navbar-container d-flex align-center justify-between">
         {/* logo */}
         <div className="logo-box">
-          <h1 className="logo">Paper Dekho</h1>
+          <h1 className="logo">
+            <span className="primary-color-text">Paper</span> Dekho
+            <span className="dotcom">.com</span>
+          </h1>
         </div>
 
         {/* nav-links */}

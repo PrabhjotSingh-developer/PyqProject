@@ -1,11 +1,11 @@
 /* footer */
 footer {
-  background-color: var(--primary-bg);
+  background-color: var(--l-primary-bg);
   width: 100vw;
   position: fixed;
   bottom: 0;
   padding: 0.5rem var(--padding-inline);
-  color: var(--white-secondary);
+  color: var(--l-light-font-color);
   text-align: center;
 }
 
