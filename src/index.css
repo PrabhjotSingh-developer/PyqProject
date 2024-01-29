@@ -90,10 +90,10 @@ a {
 
 /* light mode */
 .light-mode {
-  background-color: black;
+  --primary-bg: #fff;
 }
 
 /* dark mode */
 .dark-mode {
-  background-color: red;
+  --primary-bg: black;
 }
