@@ -1,14 +1,14 @@
 import React from "react";
 import "./Navbar.css"; // add css
 // import  {Link}  from 'react-router-dom' //anchor gi jagah
+import { IoMdMoon } from "react-icons/io"; // add react-icons
 import { useContext } from "react";
 import MyContext from "../../context/data/MyContext.jsx";
 const Navbar = () => {
   const context = useContext(MyContext);
   const { mode, toggleMode } = context;
   console.log(context);
- 
-  
+
   const bg_color = mode === "light" ? "light-mode" : "dark-mode";
   return (
     // navbbar
@@ -40,7 +40,10 @@ const Navbar = () => {
             <a href="">Admin</a>
           </li>
 
-          <span className="switch-mode-btn" onClick={toggleMode}>change</span>
+          {/* switch-mode-btn */}
+          <span className="switch-mode-btn" onClick={toggleMode}>
+            <IoMdMoon className="switch-mode-icon" />
+          </span>
         </ul>
       </nav>
     </div>

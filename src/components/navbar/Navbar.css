@@ -49,7 +49,15 @@
   }
 }
 
+/* switch-mode-icon */
 .switch-mode-btn {
-  color: red;
+  width: 2rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--dark-font-color);
   cursor: pointer;
+  color: var(--secondary-bg);
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
 }
