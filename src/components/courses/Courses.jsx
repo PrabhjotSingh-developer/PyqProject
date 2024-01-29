@@ -1,22 +1,55 @@
 import React from "react";
 import "./Courses.css"; // add css
 
-const coursesNames = ["bca", "bsc", "bsc", "bba", "ba","baa","bana","bbaan"];
+const ugCourses = [
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+];
+
+const pgCourses = [
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+  { abbr: "bca", fullForm: "bachelor of computer applications" },
+];
 
 const Courses = () => {
   return (
     <section id="courses-section">
       <div className="courses-container padding-inline">
-        <h2 className="section-heading">courses</h2>
+        <div className="ug-courses">
+          <h2 className="section-heading">UG courses</h2>
 
-        <div className="courses-cards-container">
-          {coursesNames.map((courseName) => {
-            return (
-              <div className='course-card'>
-                <h4>{courseName}</h4>
-              </div>
-            );
-          })}
+          <div className="courses-cards-container">
+            {ugCourses.map((course) => {
+              return (
+                <div className="course-card">
+                  <h4>{course.abbr}</h4>
+                  <h6>{course.fullForm}</h6>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <div className="pg-courses">
+          <h2 className="section-heading">PG courses</h2>
+
+          <div className="courses-cards-container">
+            {pgCourses.map((course) => {
+              return (
+                <div className="course-card">
+                  <h4>{course.abbr}</h4>
+                  <h6>{course.fullForm}</h6>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>

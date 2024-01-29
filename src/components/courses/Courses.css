@@ -9,6 +9,10 @@
   padding-block: 3rem;
 }
 
+.courses-container .ug-courses {
+  margin-bottom: 3rem;
+}
+
 /* courses-cards-container */
 .courses-cards-container {
   display: grid;
@@ -20,17 +24,30 @@
 .course-card {
   background-color: var(--secondary-bg);
   padding: 1rem;
-  color: var(--light-font-color);
-  font-size: 1.2rem;
-  font-weight: 500;
-  font-family: var(--font-family-2);
-  text-transform: uppercase;
-  letter-spacing: 0.4px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   position: relative;
   cursor: pointer;
   z-index: 2;
+  transition: all 0.5s linear;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.course-card h4 {
+  color: var(--dark-font-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: var(--font-family-2);
+  margin-bottom: 0.3rem;
+  transition: all 0.5s linear;
+}
+
+.course-card h6 {
+  color: var(--light-font-color);
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: var(--font-family-2);
   transition: all 0.5s linear;
 }
 
@@ -53,7 +70,12 @@
     transition: all 0.5s linear;
   }
 
-  .course-card:hover {
+  .course-card:hover h4 {
+    color: var(--pure-color);
+    transition: all 0.5s linear;
+  }
+
+  .course-card:hover h6 {
     color: var(--pure-color);
     transition: all 0.5s linear;
   }

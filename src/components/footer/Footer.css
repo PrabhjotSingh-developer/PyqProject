@@ -2,8 +2,6 @@
 footer {
   background-color: var(--secondary-bg);
   width: 100vw;
-  position: fixed;
-  bottom: 0;
   padding: 0.5rem var(--padding-inline);
   color: var(--light-font-color);
   text-align: center;
