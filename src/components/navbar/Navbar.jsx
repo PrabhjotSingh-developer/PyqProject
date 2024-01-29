@@ -7,9 +7,10 @@ const Navbar = () => {
   const context = useContext(MyContext);
   const { mode, toggleMode } = context;
   console.log(context);
+  const bg_color = mode === 'light' ? "light-mode" :"dark-mode"
   return (
     // navbbar
-    <div className={`navbar`}>
+    <div className={`navbar ${bg_color}`}>
       {/* navbar-container */}
       <nav className="navbar-container d-flex align-center justify-between">
         {/* logo */}
