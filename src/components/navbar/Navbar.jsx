@@ -4,6 +4,7 @@ import  {Link}  from 'react-router-dom' //anchor gi jagah
 import { useContext } from "react";
 import MyContext from "../../context/data/MyContext.jsx";
 import { IoIosMoon } from "react-icons/io";
+import { FaSun } from "react-icons/fa6";
 const Navbar = () => {
   const context = useContext(MyContext);
   const { mode, toggleMode } = context;
@@ -42,7 +43,10 @@ const Navbar = () => {
 
           {/* switch-mode-btn */}
           <span className="switch-mode-btn" onClick={toggleMode}>
-            <IoIosMoon className="switch-mode-icon" />
+            {
+
+              mode === 'light' ? <IoIosMoon className="switch-mode-icon" /> : <FaSun className="switch-mode-icon"/>
+            }
           </span>
         </ul>
       </nav>
