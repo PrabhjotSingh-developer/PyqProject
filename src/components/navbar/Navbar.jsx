@@ -27,15 +27,15 @@ const Navbar = () => {
         {/* nav-links */}
         <ul className="nav-links d-flex align-center">
           <li>
-            <Link className="active-nav-link" to={"home"}>
+            <Link className="active-nav-link" to={""}>
               Home
             </Link>
           </li>
           <li>
-            <Link to={"home"}>About</Link>
+            <Link to={""}>About</Link>
           </li>
           <li>
-            <Link to={"home"}>Contact</Link>
+            <Link to={""}>Contact</Link>
           </li>
           <li>
             <Link to={"admin"}>Admin</Link>

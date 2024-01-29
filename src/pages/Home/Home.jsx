@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Courses from '../../components/courses/Courses'
 const Home = () => {
   return (
     <div>
-         home page
+          <Courses/>
     </div>
   )
 }

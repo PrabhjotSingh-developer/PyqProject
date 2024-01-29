@@ -11,11 +11,9 @@ import MyState from './context/data/myState.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element = {<Layout/>}>
-          <Route path="home" element={<Home/>} />
+          <Route path="" element={<Home/>} />
           <Route path="admin" element={<Admin/>} />
-          <Route path="Semsub" element={<Semsub/>} />
-
-          
+          <Route path="Semsub" element={<Semsub/>} />   
     </Route>
   )
 )
