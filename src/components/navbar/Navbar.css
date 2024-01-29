@@ -53,4 +53,5 @@
 
 .switch-mode-btn {
   color: red;
+  cursor: pointer;
 }
