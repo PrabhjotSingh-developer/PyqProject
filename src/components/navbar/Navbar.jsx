@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css"; // add css
 // import  {Link}  from 'react-router-dom' //anchor gi jagah
-import { IoMdMoon } from "react-icons/io"; // add react-icons
 import { useContext } from "react";
 import MyContext from "../../context/data/MyContext.jsx";
 const Navbar = () => {
@@ -26,18 +25,18 @@ const Navbar = () => {
         {/* nav-links */}
         <ul className="nav-links d-flex align-center">
           <li>
-            <a className="active-nav-link" href="">
+            <Link className="active-nav-link" to={"home"}>
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="">About</a>
+            <Link to={"home"}>About</Link>
           </li>
           <li>
-            <a href="">Contact</a>
+            <Link to={"home"}>Contact</Link>
           </li>
           <li>
-            <a href="">Admin</a>
+            <Link to={"admin"}>Admin</Link>
           </li>
 
           {/* switch-mode-btn */}

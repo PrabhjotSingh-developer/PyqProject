@@ -7,6 +7,7 @@ import Layout from './components/layout/Layout.jsx'
 import Home from './pages/Home/Home.jsx'
 import Admin from './pages/Admin/Admin.jsx'
 import Semsub from './pages/SemSub/Semsub.jsx'
+import MyState from './context/data/myState.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element = {<Layout/>}>
@@ -20,6 +21,9 @@ const router = createBrowserRouter(
 )
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <MyState>
+    <RouterProvider router={router}/>
+
+    </MyState>
   </React.StrictMode>,
 )
