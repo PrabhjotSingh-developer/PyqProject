@@ -7,8 +7,9 @@ const Navbar = () => {
   const context = useContext(MyContext);
   const { mode, toggleMode } = context;
   console.log(context);
-  const bg_color = mode === 'light' ? "light-mode" :"dark-mode"
+ 
   
+  const bg_color = mode === "light" ? "light-mode" : "dark-mode";
   return (
     // navbbar
     <div className={`navbar ${bg_color}`}>
@@ -38,6 +39,8 @@ const Navbar = () => {
           <li>
             <a href="">Admin</a>
           </li>
+
+          <span className="switch-mode-btn" onClick={toggleMode}>change</span>
         </ul>
       </nav>
     </div>

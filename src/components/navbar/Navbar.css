@@ -50,3 +50,7 @@
     color: var(--l-dark-font-color);
   }
 }
+
+.switch-mode-btn {
+  color: red;
+}
