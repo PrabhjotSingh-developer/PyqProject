@@ -1,8 +1,9 @@
 import React from "react";
 import "./Navbar.css"; // add css
-// import  {Link}  from 'react-router-dom' //anchor gi jagah
+import  {Link}  from 'react-router-dom' //anchor gi jagah
 import { useContext } from "react";
 import MyContext from "../../context/data/MyContext.jsx";
+import { IoIosMoon } from "react-icons/io";
 const Navbar = () => {
   const context = useContext(MyContext);
   const { mode, toggleMode } = context;
@@ -41,7 +42,7 @@ const Navbar = () => {
 
           {/* switch-mode-btn */}
           <span className="switch-mode-btn" onClick={toggleMode}>
-            <IoMdMoon className="switch-mode-icon" />
+            <IoIosMoon className="switch-mode-icon" />
           </span>
         </ul>
       </nav>
