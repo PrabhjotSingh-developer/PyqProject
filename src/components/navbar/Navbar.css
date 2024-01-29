@@ -18,8 +18,7 @@
   font-size: 2.2rem;
   font-family: var(--font-family-1);
   font-variant: small-caps;
-  letter-spacing: 0.6px;
-  word-spacing: 2px;
+  word-spacing: -6px;
   color: var(--l-dark-font-color);
 }
 
