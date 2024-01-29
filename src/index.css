@@ -9,12 +9,14 @@
   --pure-white: #fff;
 
   /* for light mode */
+  --l-pure-color: var(--pure-white);
   --l-primary-bg: #e1ebee78;
   --l-secondary-bg: var(--pure-white);
   --l-dark-font-color: #161617;
   --l-light-font-color: #414144;
 
   /* for dark mode */
+  --d-pure-color: var(--pure-black);
   --d-primary-bg: var(--pure-black);
   --d-secondary-bg: #161617;
   --d-dark-font-color: var(--pure-white);
@@ -72,12 +74,27 @@ a {
   justify-content: space-between;
 }
 
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--dark-font-color);
+  text-transform: capitalize;
+  font-family: var(--font-family-2);
+  letter-spacing: 0.2px;
+  margin-bottom: 2rem;
+}
+
+.padding-inline {
+  padding-inline: var(--padding-inline);
+}
+
 .primary-color-text {
   color: var(--primary-color);
 }
 
 /* light mode */
 .light-mode {
+  --pure-color: var(--l-pure-color);
   --primary-bg: var(--l-primary-bg);
   --secondary-bg: var(--l-secondary-bg);
   --dark-font-color: var(--l-dark-font-color);
@@ -86,6 +103,7 @@ a {
 
 /* dark mode */
 .dark-mode {
+  --pure-color: var(--d-pure-color);
   --primary-bg: var(--d-primary-bg);
   --secondary-bg: var(--d-secondary-bg);
   --dark-font-color: var(--d-dark-font-color);

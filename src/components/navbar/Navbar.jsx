@@ -15,11 +15,12 @@ const Navbar = () => {
     // navbbar
     <div className={`navbar ${bg_color}`}>
       {/* navbar-container */}
-      <nav className="navbar-container d-flex align-center justify-between">
+      <nav className="navbar-container padding-inline d-flex align-center justify-between">
         {/* logo */}
         <div className="logo-box">
           <h1 className="logo">
-            <span className="primary-color-text">Paper</span> Dekho
+          Paper
+            <span className="primary-color-text">Dekho</span> 
             <span className="dotcom">.com</span>
           </h1>
         </div>
