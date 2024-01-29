@@ -4,7 +4,19 @@ import MyContext from './MyContext.jsx'
 const MyState = (props) => {
     const [mode,setMode] = useState('light');
     const toggleMode = () =>{
-        (mode === 'light')?setMode('dark'):setMode('light')
+        if(mode === 'light')
+        {
+        setMode('dark')
+        document.getElementsByTagName("html")
+        
+
+        }
+      else
+        {
+                 document.getElementsByTagName("html")
+
+        setMode('light')
+       }
     }
   return (
     <MyContext.Provider value = {{mode,toggleMode}}>

@@ -8,6 +8,7 @@ const Navbar = () => {
   const { mode, toggleMode } = context;
   console.log(context);
   const bg_color = mode === 'light' ? "light-mode" :"dark-mode"
+  
   return (
     // navbbar
     <div className={`navbar ${bg_color}`}>
