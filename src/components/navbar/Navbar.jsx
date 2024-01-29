@@ -44,7 +44,6 @@ const Navbar = () => {
           {/* switch-mode-btn */}
           <span className="switch-mode-btn" onClick={toggleMode}>
             {
-
               mode === 'light' ? <IoIosMoon className="switch-mode-icon" /> : <FaSun className="switch-mode-icon"/>
             }
           </span>
