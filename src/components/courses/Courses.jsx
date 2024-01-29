@@ -1,11 +1,9 @@
-import React from 'react'
-
+import React from "react";
+const coursesData = ["bca", "bsc", "bsc", "bba", "ba"];
 const Courses = () => {
-  return (
-    <div>
-          courses page
-    </div>
-  )
-}
+  return <div>
 
-export default Courses
+  </div>;
+};
+
+export default Courses;
