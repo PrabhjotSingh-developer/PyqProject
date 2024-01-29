@@ -3,39 +3,27 @@
 
 /* variables */
 :root {
-  /* --parent-color: #0004ff;
-  --primary-bg: #000180;
-  --l-primary-bg: #e1ebee78;
-  --l-primary-font-color: #000180;
-  --l-secondary-bg: var(--pure-white);
-  --pure-white: #fff;
-  --white-secondary: #e2edff; */
-
-  /* primary color for both modes */
+  /* colors for both modes */
   --primary-color: #ff0000;
+  --pure-black: #000;
+  --pure-white: #fff;
 
   /* for light mode */
-  --pure-white: #fff;
   --l-primary-bg: #e1ebee78;
   --l-secondary-bg: var(--pure-white);
   --l-dark-font-color: #161617;
   --l-light-font-color: #414144;
-  --l-one-mode-shadow: #00000014;
-  --l-two-mode-shadow: rgba(0, 0, 0, 0.064);
-  --l-border-color: rgba(128, 128, 128, 0.176);
 
   /* for dark mode */
-  --pure-black: #000;
-  --d-secondary-bg: #161617;
   --d-primary-bg: var(--pure-black);
-  --d-white-font-color: #fff;
+  --d-secondary-bg: #161617;
+  --d-dark-font-color: var(--pure-white);
   --d-light-font-color: #e1ebee78;
-  --d-one-mode-shadow: transparent;
-  --d-two-mode-shadow: var(--active-theme-color);
-  --d-border-color: #ada2a24d;
 
+  /* padding */
   --padding-inline: 10rem;
 
+  /* font-family */
   --font-family-1: "Nunito", sans-serif;
   --font-family-2: "Poppins", sans-serif;
 }
@@ -90,10 +78,16 @@ a {
 
 /* light mode */
 .light-mode {
-  --primary-bg: #fff;
+  --primary-bg: var(--l-primary-bg);
+  --secondary-bg: var(--l-secondary-bg);
+  --dark-font-color: var(--l-dark-font-color);
+  --light-font-color: var(--l-light-font-color);
 }
 
 /* dark mode */
 .dark-mode {
-  --primary-bg: black;
+  --primary-bg: var(--d-primary-bg);
+  --secondary-bg: var(--d-secondary-bg);
+  --dark-font-color: var(--d-dark-font-color);
+  --light-font-color: var(--d-light-font-color);
 }
