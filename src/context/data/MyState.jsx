@@ -4,6 +4,7 @@ import MyContext from "./MyContext.jsx";
 const MyState = (props) => {
   const [mode, setMode] = useState("light");
   const html = document.getElementsByTagName("html")[0];
+  html.classList.add("light-mode");
 
   const toggleMode = () => {
     if (mode === "light") {

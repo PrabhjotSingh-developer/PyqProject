@@ -1,7 +1,7 @@
 /* navbar */
 .navbar {
   width: 100vw;
-  background-color: var(--l-secondary-bg);
+  background-color: var(--secondary-bg);
   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
     rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
@@ -10,7 +10,6 @@
 .navbar-container {
   width: 100%;
   padding: 0.5rem var(--padding-inline);
-  color: #fff;
 }
 
 /* logo */
@@ -19,7 +18,7 @@
   font-family: var(--font-family-1);
   font-variant: small-caps;
   word-spacing: -6px;
-  color: var(--l-dark-font-color);
+  color: var(--dark-font-color);
 }
 
 .logo .dotcom {
@@ -33,7 +32,7 @@
 }
 
 .nav-links li a {
-  color: var(--l-light-font-color);
+  color: var(--light-font-color);
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -46,7 +45,7 @@
 @media (hover: hover) {
   .nav-links li a:hover,
   .nav-links li a.active-nav-link {
-    color: var(--l-dark-font-color);
+    color: var(--dark-font-color);
   }
 }
 
