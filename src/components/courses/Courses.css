@@ -6,11 +6,11 @@
 /* courses-container */
 .courses-container {
   width: 100%;
-  padding-block: 3rem;
+  padding-block: 4rem;
 }
 
 .courses-container .ug-courses {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 /* courses-cards-container */

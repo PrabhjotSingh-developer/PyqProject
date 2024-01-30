@@ -74,8 +74,9 @@ a {
   justify-content: space-between;
 }
 
+/* .section-heading for section like courses, about and contact */
 .section-heading {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-weight: 500;
   color: var(--dark-font-color);
   text-transform: capitalize;
@@ -111,12 +112,14 @@ a {
   animation: animate-section-heading-2 5s linear infinite alternate;
 }
 
+/* animation for section heading */
 @keyframes animate-section-heading-1 {
   100% {
     width: 100%;
   }
 }
 
+/* animation for section heading */
 @keyframes animate-section-heading-2 {
   100% {
     left: 100%;
