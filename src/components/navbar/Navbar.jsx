@@ -18,9 +18,9 @@ const Navbar = () => {
       path: "",
     },
     {
-      id:"2",
-      name:"About",
-      path:"#about"
+      id: "2",
+      name: "About",
+      path: "#about",
     },
     {
       id: "3",
@@ -39,30 +39,33 @@ const Navbar = () => {
     // navbbar
     <div className={`navbar ${bg_color}`}>
       {/* navbar-container */}
-      <nav className="navbar-container padding-inline d-flex align-center justify-between">
+      <nav className="navbar-container common-padding-inline d-flex align-center justify-between">
         {/* logo */}
-        <div className="logo-box">
+        <div>
           <h1 className="logo">
-            Paper
-            <span className="primary-color-text">Dekho</span>
-            <span className="dotcom">.com</span>
+            paper
+            <span className="primary-color-text"> dekho</span>
+            <span>.com</span>
           </h1>
         </div>
 
         {/* nav-links */}
         <ul className="nav-links d-flex align-center">
-        {
-             arr.map((item)=>(
-             <li> 
-                 <Link  to={item.path} onClick={()=>setActive(item.id)} className={`${item.name==='Home' && isActive ===false ?'active-nav-link':''} ${(isActive === item.id  ? 'active-nav-link':'')}`}>
-               {item.name}
-            </Link>
-          </li>
-          ))
-        
-        }
-       
-
+          {arr.map((item) => (
+            <li>
+              <Link
+                to={item.path}
+                onClick={() => setActive(item.id)}
+                className={`${
+                  item.name === "Home" && isActive === false
+                    ? "active-nav-link"
+                    : ""
+                } ${isActive === item.id ? "active-nav-link" : ""}`}
+              >
+                {item.name}
+              </Link>
+            </li>
+          ))}
 
           {/* <li>
             <Link to={""}>About</Link>

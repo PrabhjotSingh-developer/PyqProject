@@ -44,9 +44,9 @@ const pgCourses = [
 const Courses = () => {
   return (
     // courses-section
-    <section id="section">
+    <section>
       {/* courses-container */}
-      <div className="courses-container padding-inline">
+      <div className="courses-container section-padding-block common-padding-inline">
         {/* under-graduate courses */}
         <div className="ug-courses">
           {/* section-heading */}
