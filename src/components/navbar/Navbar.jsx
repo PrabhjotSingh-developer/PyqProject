@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const context = useContext(MyContext);
   const { mode, toggleMode } = context;
-  const [isActive,setActive] = useState();
+  const [isActive,setActive] = useState(false);
   console.log(context);
   const arr = [
     {
@@ -56,7 +56,7 @@ const Navbar = () => {
         {
              arr.map((item)=>(
              <li> 
-            <Link  to={""} onClick={()=>setActive(item.id)} className={`${isActive === item.id  ? 'active-nav-link':''}`}>
+                 <Link  to={""} onClick={()=>setActive(item.id)} className={`${item.name==='Home' && isActive ===false ?'active-nav-link':''} ${(isActive === item.id  ? 'active-nav-link':'')}`}>
                {item.name}
             </Link>
           </li>
