@@ -1,6 +1,6 @@
 import React from "react";
-import "./About.css"; // add css
-const About = () => {
+import "./Contact.css"; // add css
+const Contact = () => {
   return (
     <section id="about">
       <div className="about-container section-padding-block common-padding-inline">
@@ -71,4 +71,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;
