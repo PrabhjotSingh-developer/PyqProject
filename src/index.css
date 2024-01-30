@@ -39,6 +39,17 @@
   box-sizing: border-box;
 }
 
+/* style scrollbar */
+::-webkit-scrollbar-track {
+  background-color: var(--dark-font-color);
+  border-radius: 2.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 2.5rem;
+}
+
 html {
   /* now 1rem = 10px  */
   font-size: 62.5%;
