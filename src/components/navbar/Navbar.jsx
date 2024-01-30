@@ -1,16 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css"; // add css
 import { Link } from "react-router-dom"; //anchor gi jagah
 import { useContext } from "react";
 import MyContext from "../../context/data/MyContext.jsx";
 import { IoIosMoon } from "react-icons/io";
 import { FaSun } from "react-icons/fa6";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const context = useContext(MyContext);
   const { mode, toggleMode } = context;
+  const [isActive,setActive] = useState();
   console.log(context);
+  const arr = [
+    {
 
+           id:"1",
+          name:"Home",
+          path:"",
+          
+    },
+    {
+      id:"2",
+      name:"About",
+      path:""
+    },
+    {
+      id:"3",
+      name:"Contact",
+       path:""
+   },
+   {
+    id:"4",
+    name:"Admin",
+    path:"admin"
+  }
+]
   const bg_color = mode === "light" ? "light-mode" : "dark-mode";
+ 
   return (
     // navbbar
     <div className={`navbar ${bg_color}`}>
@@ -27,12 +53,20 @@ const Navbar = () => {
 
         {/* nav-links */}
         <ul className="nav-links d-flex align-center">
-          <li>
-            <Link className="active-nav-link" to={""}>
-              Home
+        {
+             arr.map((item)=>(
+             <li> 
+            <Link  to={""} onClick={()=>setActive(item.id)} className={`${isActive === item.id  ? 'active-nav-link':''}`}>
+               {item.name}
             </Link>
           </li>
-          <li>
+          ))
+        
+        }
+       
+
+
+          {/* <li>
             <Link to={""}>About</Link>
           </li>
           <li>
@@ -40,7 +74,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to={"admin"}>Admin</Link>
-          </li>
+          </li> */}
 
           {/* switch-mode-btn */}
           <span className="switch-mode-btn" onClick={toggleMode}>
