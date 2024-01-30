@@ -83,7 +83,7 @@ const Courses = () => {
           </div>
         </div>
       </div>
-
+      <hr className="section-seperater-line" />
     </section>
   );
 };

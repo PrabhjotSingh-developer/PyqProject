@@ -68,7 +68,7 @@ a {
   text-decoration: none;
 }
 
-p{
+p {
   line-height: 1.5;
 }
 
@@ -166,7 +166,15 @@ p{
 }
 
 .section-padding-block {
-  padding-block: 3rem 1rem;
+  padding-block: 3rem 1.5rem;
+}
+
+.section-seperater-line {
+  border: 0;
+  height: 0.1rem;
+  width: calc(100vw - 20rem);
+  background-color: var(--light-font-color);
+  margin: 1rem auto;
 }
 
 .primary-color-text {

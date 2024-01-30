@@ -67,6 +67,7 @@ const About = () => {
           </ul>
         </div>
       </div>
+      <hr className="section-seperater-line" />
     </section>
   );
 };
