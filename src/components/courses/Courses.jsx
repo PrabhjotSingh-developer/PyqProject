@@ -83,6 +83,7 @@ const Courses = () => {
           </div>
         </div>
       </div>
+
     </section>
   );
 };

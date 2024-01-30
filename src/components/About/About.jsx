@@ -9,10 +9,10 @@ const About = () => {
         <div className="about-content">
           <h3>
             welcome to&nbsp;
-            <h3 className="logo">
+            <span className="logo">
               paper<span className="primary-color-text">dekho</span>
               <span>.com</span>
-            </h3>
+            </span>
             &nbsp;- Your Ultimate Exam Companion!
           </h3>
           <p>
@@ -34,10 +34,10 @@ const About = () => {
         <div className="about-content">
           <h3>
             why&nbsp;
-            <h3 className="logo">
+            <span className="logo">
               paper<span className="primary-color-text">dekho</span>
               <span className="dotcom">.com</span>
-            </h3>
+            </span>
           </h3>
 
           <ul>

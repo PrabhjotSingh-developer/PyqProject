@@ -1,48 +1,35 @@
 /* about-content */
-.about-content {
+.contact-content {
   padding-bottom: 1.8rem;
 }
 
-.about-content h3 {
+.contact-content:last-child {
+  padding-bottom: 0;
+}
+
+.contact-content h3 {
   font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-transform: capitalize;
   font-family: var(--font-family-2);
   color: var(--dark-font-color);
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
 }
 
-.about-content p {
+.contact-content p {
   font-size: 1rem;
   font-weight: 600;
   font-family: var(--font-family-1);
   color: var(--light-font-color);
   letter-spacing: 0.2px;
 }
-.about-content ul li {
-  list-style: disc;
-  list-style-position: inside;
-  margin-block: 0.4rem;
-  padding-inline: 0.2rem;
-  line-height: 1.5;
-}
 
-.about-content ul li span:first-child {
+.founders{
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-transform: capitalize;
   font-family: var(--font-family-2);
   color: var(--dark-font-color);
-  padding-right: 0.3rem;
-  margin-left: -0.4rem;
-}
-
-.about-content ul li span:last-child {
-  font-size: 1rem;
-  font-weight: 600;
-  font-family: var(--font-family-1);
-  color: var(--light-font-color);
-  letter-spacing: 0.2px;
 }
