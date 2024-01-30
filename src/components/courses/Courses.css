@@ -1,12 +1,6 @@
-/* courses-section */
-#courses-section {
-  width: 100vw;
-}
-
 /* courses-container */
 .courses-container {
   width: 100%;
-  padding-block: 4rem;
 }
 
 .courses-container .ug-courses {

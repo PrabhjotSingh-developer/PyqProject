@@ -44,7 +44,7 @@ const pgCourses = [
 const Courses = () => {
   return (
     // courses-section
-    <section id="courses-section">
+    <section id="section">
       {/* courses-container */}
       <div className="courses-container padding-inline">
         {/* under-graduate courses */}

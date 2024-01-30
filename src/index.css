@@ -4,7 +4,7 @@
 /* variables */
 :root {
   /* colors for both modes */
-  --primary-color: #ff0000;
+  --primary-color: #00ff08;
   --pure-black: #000;
   --pure-white: #fff;
 
@@ -46,6 +46,7 @@ html {
 
 body {
   background-color: var(--primary-bg);
+  overflow-x: hidden;
 }
 
 li {
@@ -132,6 +133,10 @@ a {
 
 .primary-color-text {
   color: var(--primary-color);
+}
+
+#section {
+  padding-block: 3rem;
 }
 
 /* light mode */
