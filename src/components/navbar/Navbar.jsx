@@ -9,34 +9,32 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const context = useContext(MyContext);
   const { mode, toggleMode } = context;
-  const [isActive,setActive] = useState(false);
+  const [isActive, setActive] = useState();
   console.log(context);
   const arr = [
     {
-
-           id:"1",
-          name:"Home",
-          path:"",
-          
+      id: "1",
+      name: "Home",
+      path: "",
     },
     {
-      id:"2",
-      name:"About",
-      path:""
+      id: "2",
+      name: "About",
+      path: "",
     },
     {
-      id:"3",
-      name:"Contact",
-       path:""
-   },
-   {
-    id:"4",
-    name:"Admin",
-    path:"admin"
-  }
-]
+      id: "3",
+      name: "Contact",
+      path: "",
+    },
+    {
+      id: "4",
+      name: "Admin",
+      path: "admin",
+    },
+  ];
   const bg_color = mode === "light" ? "light-mode" : "dark-mode";
- 
+
   return (
     // navbbar
     <div className={`navbar ${bg_color}`}>
@@ -45,26 +43,25 @@ const Navbar = () => {
         {/* logo */}
         <div className="logo-box">
           <h1 className="logo">
-          Paper
-            <span className="primary-color-text">Dekho</span> 
+            Paper
+            <span className="primary-color-text">Dekho</span>
             <span className="dotcom">.com</span>
           </h1>
         </div>
 
         {/* nav-links */}
         <ul className="nav-links d-flex align-center">
-        {
-             arr.map((item)=>(
-             <li> 
-                 <Link  to={""} onClick={()=>setActive(item.id)} className={`${item.name==='Home' && isActive ===false ?'active-nav-link':''} ${(isActive === item.id  ? 'active-nav-link':'')}`}>
-               {item.name}
-            </Link>
-          </li>
-          ))
-        
-        }
-       
-
+          {arr.map((item) => (
+            <li>
+              <Link
+                to={""}
+                onClick={() => setActive(item.id)}
+                className={`${isActive === item.id ? "active-nav-link" : ""}`}
+              >
+                {item.name}
+              </Link>
+            </li>
+          ))}
 
           {/* <li>
             <Link to={""}>About</Link>
@@ -78,7 +75,6 @@ const Navbar = () => {
 
           {/* switch-mode-btn */}
           <span className="switch-mode-btn" onClick={toggleMode}>
-
             {mode === "light" ? (
               <IoIosMoon className="switch-mode-icon" />
             ) : (
