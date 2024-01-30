@@ -13,13 +13,16 @@ import Home from "./pages/Home/Home.jsx";
 import Admin from "./pages/Admin/Admin.jsx";
 import Semsub from "./pages/SemSub/Semsub.jsx";
 import MyState from "./context/data/myState.jsx";
+import About from "./components/About/About.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element = {<Layout/>}>
           <Route path="" element={<Home/>} />
           <Route path="admin" element={<Admin/>} />
+          {/* <Route path="about" element={<About/>} /> */}
+
           <Route path="Semsub" element={<Semsub/>} />   
-  
+          
     </Route>
   )
 );

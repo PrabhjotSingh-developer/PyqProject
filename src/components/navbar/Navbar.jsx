@@ -22,7 +22,7 @@ const Navbar = () => {
     {
       id:"2",
       name:"About",
-      path:""
+      path:"#about"
     },
     {
       id:"3",
@@ -56,7 +56,7 @@ const Navbar = () => {
         {
              arr.map((item)=>(
              <li> 
-                 <Link  to={""} onClick={()=>setActive(item.id)} className={`${item.name==='Home' && isActive ===false ?'active-nav-link':''} ${(isActive === item.id  ? 'active-nav-link':'')}`}>
+                 <Link  to={item.path} onClick={()=>setActive(item.id)} className={`${item.name==='Home' && isActive ===false ?'active-nav-link':''} ${(isActive === item.id  ? 'active-nav-link':'')}`}>
                {item.name}
             </Link>
           </li>
