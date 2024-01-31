@@ -198,3 +198,76 @@ p {
   --dark-font-color: var(--d-dark-font-color);
   --light-font-color: var(--d-light-font-color);
 }
+
+@media only screen and (min-width: 1600px) and (max-height: 800px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (min-height: 800px) {
+  html {
+    font-size: 130%;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (min-height: 1150px) {
+  html {
+    font-size: 145%;
+    --padding-inline: 6rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) and (max-height: 800px) {
+  html {
+    font-size: 115%;
+  }
+}
+
+@media only screen and (min-width: 1950px) and (min-height: 800px) {
+  html {
+    font-size: 140%;
+  }
+}
+
+@media only screen and (min-width: 1950px) and (min-height: 1150px) {
+  html {
+    font-size: 170%;
+  }
+}
+
+@media only screen and (min-width: 2350px) and (max-height: 800px) {
+  html {
+    font-size: 135%;
+  }
+}
+
+@media only screen and (min-width: 2350px) and (min-height: 800px) {
+  html {
+    font-size: 160%;
+  }
+}
+
+@media only screen and (min-width: 2350px) and (min-height: 1150px) {
+  html {
+    font-size: 180%;
+  }
+}
+
+@media only screen and (min-width: 2800px) and (max-height: 800px) {
+  html {
+    font-size: 160%;
+  }
+}
+
+@media only screen and (min-width: 2800px) and (min-height: 800px) {
+  html {
+    font-size: 180%;
+  }
+}
+
+@media only screen and (min-width: 2800px) and (min-height: 1150px) {
+  html {
+    font-size: 200%;
+  }
+}
