@@ -8,7 +8,7 @@
 }
 
 .about-content h3 {
-  font-size: 1.6rem;
+  font-size: 1.6em;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-transform: capitalize;
@@ -18,12 +18,13 @@
 }
 
 .about-content p {
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 600;
   font-family: var(--font-family-1);
   color: var(--light-font-color);
   letter-spacing: 0.2px;
 }
+
 .about-content ul li {
   list-style: disc;
   list-style-position: inside;
@@ -34,7 +35,7 @@
 }
 
 .about-content ul li span:first-child {
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-transform: capitalize;
@@ -45,7 +46,7 @@
 }
 
 .about-content ul li span:last-child {
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 600;
   font-family: var(--font-family-1);
   color: var(--light-font-color);

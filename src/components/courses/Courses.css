@@ -30,7 +30,7 @@
 
 .course-card h4 {
   color: var(--dark-font-color);
-  font-size: 1.2rem;
+  font-size: 1.3em;
   font-weight: 600;
   font-family: var(--font-family-2);
   margin-bottom: 0.3rem;
@@ -39,7 +39,7 @@
 
 .course-card h6 {
   color: var(--light-font-color);
-  font-size: 0.8rem;
+  font-size: 0.8em;
   font-weight: 600;
   font-family: var(--font-family-2);
   transition: all 0.5s linear;
