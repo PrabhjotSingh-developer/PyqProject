@@ -62,3 +62,18 @@
   }
 }
 
+/* media-queries */
+@media only screen and (min-width: 900px) and (max-width: 1599px) and (min-height: 1000px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .nav-links {
+    gap: 3rem;
+  }
+
+  .nav-links li a {
+    font-size: 1.2rem;
+  }
+}
