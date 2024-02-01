@@ -279,6 +279,7 @@ p {
   }
 }
 
+/* when 1528px >= width && height >= 1000  */
 @media only screen and (min-width: 1528px) and (min-height: 1000px) {
   html {
     font-size: 97%;
