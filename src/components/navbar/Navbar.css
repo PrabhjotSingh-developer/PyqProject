@@ -120,7 +120,7 @@
     font-size: 4.5rem;
   }
 }
-
+/* 
 @media only screen and (max-width: 1527px) and (min-height: 1000px) {
   .navbar-container .logo {
     font-size: 4rem;
@@ -153,4 +153,4 @@
     flex-direction: column;
     gap: 2rem;
   }
-}
+} */
