@@ -106,7 +106,7 @@
 /* media-queries */
 
 /* width >= 1528px && height >= 920px */
-@media only screen and (max-width: 1528px) and (min-height: 920px) {
+@media only screen and (min-width: 1528px) and (min-height: 920px) {
   .navbar-container .logo {
     font-size: 5.5rem;
   }
@@ -120,6 +120,7 @@
     font-size: 4.5rem;
   }
 }
+
 /* 
 @media only screen and (max-width: 1527px) and (min-height: 1000px) {
   .navbar-container .logo {
