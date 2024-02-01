@@ -265,6 +265,7 @@ p {
   }
 }
 
+/* when 1528px >= width && height >= 820  */
 @media only screen and (min-width: 1528px) and (min-height: 820px) {
   html {
     font-size: 70%;
