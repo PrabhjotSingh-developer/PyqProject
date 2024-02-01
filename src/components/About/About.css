@@ -8,7 +8,7 @@
 }
 
 .about-content h3 {
-  font-size: 1.6em;
+  font-size: 3em;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-transform: capitalize;
@@ -18,7 +18,7 @@
 }
 
 .about-content p {
-  font-size: 1em;
+  font-size: 1.7em;
   font-weight: 600;
   font-family: var(--font-family-1);
   color: var(--light-font-color);
@@ -32,10 +32,10 @@
   padding-inline: 0.2rem;
   line-height: 1.5;
   color: var(--dark-font-color);
+  font-size: 1.7em;
 }
 
 .about-content ul li span:first-child {
-  font-size: 1em;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-transform: capitalize;
@@ -46,7 +46,6 @@
 }
 
 .about-content ul li span:last-child {
-  font-size: 1em;
   font-weight: 600;
   font-family: var(--font-family-1);
   color: var(--light-font-color);
@@ -54,8 +53,8 @@
 }
 
 /* media-queries */
-@media only screen and (min-width: 900px) and (max-width: 1599px) and (min-height: 1000px) {
+/* @media only screen and (min-width: 900px) and (max-width: 1599px) and (min-height: 1000px) {
   .about-content {
     font-size: 1.2rem;
   }
-}
+} */

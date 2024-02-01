@@ -23,7 +23,7 @@
   --d-light-font-color: #e1ebee78;
 
   /* padding */
-  --padding-inline: 10rem;
+  --padding-inline: 22rem;
 
   /* font-family */
   --font-family-1: "Nunito", sans-serif;
@@ -111,13 +111,13 @@ p {
 
 /* .section-heading for section like courses, about and contact */
 .section-heading {
-  font-size: 2.4rem;
+  font-size: 4.3rem;
   font-weight: 500;
   color: var(--dark-font-color);
   text-transform: capitalize;
   font-family: var(--font-family-2);
   letter-spacing: 0.2px;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   position: relative;
   display: inline-block;
 }
@@ -126,10 +126,10 @@ p {
   content: "";
   position: absolute;
   aspect-ratio: 1;
-  height: 0.2rem;
+  height: 0.4rem;
   width: 0%;
   background-color: var(--primary-color);
-  bottom: -0.4rem;
+  bottom: -0.8rem;
   left: 0;
   animation: animate-section-heading-1 5s linear infinite alternate;
 }
@@ -138,12 +138,12 @@ p {
   content: "";
   position: absolute;
   aspect-ratio: 1;
-  width: 1rem;
+  width: 2rem;
   aspect-ratio: 1;
   background-color: var(--primary-color);
   left: 0%;
   border-radius: 50%;
-  bottom: -0.8rem;
+  bottom: -1.5rem;
   animation: animate-section-heading-2 5s linear infinite alternate;
 }
 
@@ -166,15 +166,15 @@ p {
 }
 
 .section-padding-block {
-  padding-block: 3rem 1.5rem;
+  padding-block: 5rem 2.5rem;
 }
 
 .section-seperater-line {
   border: 0;
-  height: 0.1rem;
+  height: 0.2rem;
   width: calc(100vw - var(--padding-inline) * 2);
   background-color: var(--light-font-color);
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 
 .primary-color-text {
@@ -199,133 +199,80 @@ p {
   --light-font-color: var(--d-light-font-color);
 }
 
-@media only screen and (min-width: 900px) and (max-height: 800px) {
+@media only screen and (max-width: 1527px) and (min-height: 820px) {
   html {
-    font-size: 82%;
+    font-size: 70%;
   }
 }
 
-@media only screen and (min-width: 900px) and (min-height: 800px) {
-  html {
-    font-size: 110%;
-  }
-
-  :root {
-    --padding-inline: 2rem;
-  }
-}
-
-@media only screen and (min-width: 900px) and (min-height: 1000px) {
-  html {
-    font-size: 130%;
-  }
-  .section-heading {
-    font-size: 2.6rem;
-  }
-}
-
-@media only screen and (min-width: 1020px) and (min-height: 680px) {
+@media only screen and (max-width: 1527px) and (min-height: 920px) {
   html {
     font-size: 95%;
   }
 }
 
-@media only screen and (min-width: 1020px) and (min-height: 850px) {
-  html {
-    font-size: 110%;
-  }
-}
-
-@media only screen and (min-width: 1020px) and (min-height: 1000px) {
-  html {
-    font-size: 130%;
-  }
-}
-
-@media only screen and (min-width: 1500px) and (max-height: 850px) {
-  html {
-    font-size: 110%;
-  }
-}
-
-@media only screen and (min-width: 1500px) and (min-height: 850px) {
-  html {
-    font-size: 130%;
-  }
-}
-
-@media only screen and (min-width: 1600px) and (max-height: 800px) {
-  html {
-    font-size: 95%;
-  }
-}
-
-@media only screen and (min-width: 1600px) and (min-height: 800px) {
-  html {
-    font-size: 120%;
-  }
-}
-
-@media only screen and (min-width: 1600px) and (min-height: 1150px) {
-  html {
-    font-size: 135%;
-  }
-
-  :root {
-    --padding-inline: 6rem;
-  }
-}
-
-@media only screen and (min-width: 1950px) and (max-height: 800px) {
+@media only screen and (max-width: 1527px) and (min-height: 1100px) {
   html {
     font-size: 105%;
   }
 }
 
-@media only screen and (min-width: 1950px) and (min-height: 800px) {
-  html {
-    font-size: 130%;
+@media only screen and (min-height: 920px) {
+  :root {
+    --padding-inline: 10rem;
   }
 }
 
-@media only screen and (min-width: 1950px) and (min-height: 1150px) {
+@media only screen and (min-width: 1528px) and (min-height: 820px) {
   html {
-    font-size: 160%;
+    font-size: 70%;
   }
 }
 
-@media only screen and (min-width: 2350px) and (max-height: 800px) {
+@media only screen and (min-width: 1528px) and (min-height: 920px) {
   html {
-    font-size: 125%;
+    font-size: 95%;
   }
 }
 
-@media only screen and (min-width: 2350px) and (min-height: 800px) {
+@media only screen and (min-width: 1528px) and (min-height: 1100px) {
   html {
-    font-size: 150%;
+    font-size: 97%;
   }
 }
 
-@media only screen and (min-width: 2350px) and (min-height: 1150px) {
+@media only screen and (min-width: 1900px) and (max-height: 850px) {
   html {
-    font-size: 170%;
+    font-size: 78%;
   }
 }
 
-@media only screen and (min-width: 2800px) and (max-height: 800px) {
+@media only screen and (min-width: 2200px) and (max-height: 850px) {
   html {
-    font-size: 150%;
+    font-size: 85%;
   }
 }
 
-@media only screen and (min-width: 2800px) and (min-height: 800px) {
+@media only screen and (min-width: 2200px) and (min-height: 850px) {
   html {
-    font-size: 170%;
+    font-size: 95%;
   }
 }
 
-@media only screen and (min-width: 2800px) and (min-height: 1150px) {
+@media only screen and (min-width: 2500px) and (max-height: 850px) {
   html {
-    font-size: 180%;
+    font-size: 90%;
+  }
+}
+
+@media only screen and (min-width: 2800px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  html {
+    font-size: 110%;
   }
 }
