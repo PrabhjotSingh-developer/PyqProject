@@ -63,8 +63,7 @@
 }
 
 /* media-queries */
-@media only screen  and (max-width: 1527px) and (min-height: 1000px) {
- 
+@media only screen and (max-width: 1527px) and (min-height: 1000px) {
   .navbar-container .logo {
     font-size: 4rem;
   }
@@ -72,9 +71,21 @@
   .nav-links {
     gap: 1.5rem;
   }
-  
 
   .nav-links li a {
     font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (min-height: 920px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .nav-links {
+    gap: 2.5rem;
+  }
+  .nav-links li a {
+    font-size: 2rem;
   }
 }

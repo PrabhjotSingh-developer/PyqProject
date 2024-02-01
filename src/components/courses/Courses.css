@@ -76,8 +76,8 @@
 }
 
 /* media-queries */
-/* @media only screen and (min-width: 900px) and (max-width: 1599px) and (min-height: 1000px) {
+@media only screen and (max-width: 1150px)  {
   .courses-cards-container {
     font-size: 1.2rem;
   }
-} */
+}
