@@ -75,7 +75,7 @@
   }
 }
 
-/* media-queries */
+media-queries
 @media only screen and (max-width: 1150px)  {
   .courses-cards-container {
     font-size: 1.2rem;
