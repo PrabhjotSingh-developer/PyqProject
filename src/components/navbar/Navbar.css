@@ -42,7 +42,7 @@
 
 /* switch-mode-icon */
 .switch-mode-btn {
-  width: 4rem;
+  width: 5rem;
   aspect-ratio: 1;
   border-radius: 50%;
   background-color: var(--dark-font-color);
@@ -50,7 +50,7 @@
   color: var(--secondary-bg);
   display: grid;
   place-items: center;
-  font-size: 3.2em;
+  font-size: 3.2rem;
   transition: all 0.8s linear;
   transform: rotate(0deg);
 }
@@ -104,6 +104,23 @@
 }
 
 /* media-queries */
+
+/* width >= 1528px && height >= 920px */
+@media only screen and (max-width: 1528px) and (min-height: 920px) {
+  .navbar-container .logo {
+    font-size: 5.5rem;
+  }
+
+  .nav-links li a {
+    font-size: 2.3rem;
+  }
+
+  .switch-mode-btn {
+    width: 6rem;
+    font-size: 4.5rem;
+  }
+}
+
 @media only screen and (max-width: 1527px) and (min-height: 1000px) {
   .navbar-container .logo {
     font-size: 4rem;
