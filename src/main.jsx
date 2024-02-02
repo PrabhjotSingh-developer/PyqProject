@@ -14,6 +14,7 @@ import Admin from "./pages/Admin/Admin.jsx";
 import Semsub from "./pages/SemSub/Semsub.jsx";
 import MyState from "./context/data/myState.jsx";
 import About from "./components/About/About.jsx";
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element = {<Layout/>}>
