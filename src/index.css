@@ -259,7 +259,7 @@ p {
   }
 } */
 
-/* height >= 920px */
+/* width <= 1800px && height >= 920px */
 @media only screen and (max-width: 1800px) and (min-height: 920px) {
   :root {
     --padding-inline: 10rem;
@@ -301,13 +301,6 @@ p {
     font-size: 70%;
   }
 }
-
-/* when 2200px >= width && height <= 850  */
-/* @media only screen and (min-width: 2200px) and (max-height: 850px) {
-  html {
-    font-size: 85%;
-  }
-} */
 
 /* when 2100px >= width && height >= 780px  */
 @media only screen and (min-width: 2100px) and (max-height: 779px) {

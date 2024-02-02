@@ -42,7 +42,7 @@
 
 /* switch-mode-icon */
 .switch-mode-btn {
-  width: 5rem;
+  width: 4.5rem;
   aspect-ratio: 1;
   border-radius: 50%;
   background-color: var(--dark-font-color);
