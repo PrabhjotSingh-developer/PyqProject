@@ -9,12 +9,12 @@
 /* navbar-container */
 .navbar-container {
   width: 100%;
-  padding-block: 0.6rem;
+  padding-block: 1rem;
 }
 
 /* logo */
 .navbar-container .logo {
-  font-size: 2.6rem;
+  font-size: 5rem;
 }
 
 /* nav-links */
@@ -24,7 +24,7 @@
 
 .nav-links li a {
   color: var(--light-font-color);
-  font-size: 1.1rem;
+  font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.4px;
   text-transform: capitalize;
@@ -42,7 +42,7 @@
 
 /* switch-mode-icon */
 .switch-mode-btn {
-  width: 2.2rem;
+  width: 5rem;
   aspect-ratio: 1;
   border-radius: 50%;
   background-color: var(--dark-font-color);
@@ -50,7 +50,7 @@
   color: var(--secondary-bg);
   display: grid;
   place-items: center;
-  font-size: 1.6rem;
+  font-size: 3.2rem;
   transition: all 0.8s linear;
   transform: rotate(0deg);
 }
@@ -61,3 +61,97 @@
     transform: rotate(360deg);
   }
 }
+
+/* toggle-menu-btn */
+.toggle-menu-btn {
+  width: 5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 1s ease-in;
+}
+
+.toggle-menu-btn:hover {
+  transform: rotate(-45deg);
+}
+
+.toggle-menu-btn span {
+  width: 60%;
+  height: 0.4rem;
+  background-color: var(--pure-color);
+  transition: all 0.4s linear;
+  border-radius: 1px;
+}
+
+.toggle-menu-btn:hover > span:nth-child(1) {
+  opacity: 0;
+}
+
+.toggle-menu-btn:hover > span:nth-child(2) {
+  position: absolute;
+}
+
+.toggle-menu-btn:hover > span:nth-child(3) {
+  position: absolute;
+  transform: rotate(-90deg);
+}
+
+/* media-queries */
+
+/* width >= 1528px && height >= 920px */
+@media only screen and (min-width: 1528px) and (min-height: 920px) {
+  .navbar-container .logo {
+    font-size: 5.5rem;
+  }
+
+  .nav-links li a {
+    font-size: 2.3rem;
+  }
+
+  .switch-mode-btn {
+    width: 6rem;
+    font-size: 4.5rem;
+  }
+}
+
+/* 
+@media only screen and (max-width: 1527px) and (min-height: 1000px) {
+  .navbar-container .logo {
+    font-size: 4rem;
+  }
+
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .nav-links li a {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (min-height: 920px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .nav-links {
+    gap: 2.5rem;
+  }
+  .nav-links li a {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 850px) and (min-height: 900px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+} */

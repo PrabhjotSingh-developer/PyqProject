@@ -85,6 +85,13 @@ const Navbar = () => {
               <FaSun className="switch-mode-icon" />
             )}
           </span>
+
+          {/* toggle-menu-btn on mobiles */}
+          <div className="toggle-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </ul>
       </nav>
     </div>

@@ -23,10 +23,10 @@ const Contact = () => {
         <div className="contact-content">
           <h3>
             Thank You for Choosing&nbsp;
-            <h3 className="logo">
+            <span className="logo">
               paper<span className="primary-color-text">dekho</span>
               <span className="dotcom">.com</span>
-            </h3>
+            </span>
           </h3>
           <p>
             We appreciate your interest in our platform and look forward to

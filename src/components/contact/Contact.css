@@ -8,7 +8,7 @@
 }
 
 .contact-content h3 {
-  font-size: 1.6rem;
+  font-size: 3em;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-transform: capitalize;
@@ -18,18 +18,33 @@
 }
 
 .contact-content p {
-  font-size: 1rem;
+  font-size: 1.7em;
   font-weight: 600;
   font-family: var(--font-family-1);
   color: var(--light-font-color);
   letter-spacing: 0.2px;
 }
 
-.founders{
-  font-size: 1rem;
+.founders {
+  font-size: 2em;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-transform: capitalize;
   font-family: var(--font-family-2);
   color: var(--dark-font-color);
 }
+
+/* media-queries */
+
+/* width >= 1528px && height >= 920px */
+@media only screen and (min-width: 1528px) and (min-height: 920px) {
+  .contact-content {
+    font-size: 135%;
+  }
+}
+
+/* @media only screen and (max-width: 1150px) {
+  .contact-content {
+    font-size: 1.1rem;
+  }
+} */

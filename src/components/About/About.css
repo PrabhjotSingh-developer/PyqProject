@@ -8,7 +8,7 @@
 }
 
 .about-content h3 {
-  font-size: 1.6rem;
+  font-size: 3em;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-transform: capitalize;
@@ -18,12 +18,13 @@
 }
 
 .about-content p {
-  font-size: 1rem;
+  font-size: 1.7em;
   font-weight: 600;
   font-family: var(--font-family-1);
   color: var(--light-font-color);
   letter-spacing: 0.2px;
 }
+
 .about-content ul li {
   list-style: disc;
   list-style-position: inside;
@@ -31,10 +32,10 @@
   padding-inline: 0.2rem;
   line-height: 1.5;
   color: var(--dark-font-color);
+  font-size: 1.7em;
 }
 
 .about-content ul li span:first-child {
-  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-transform: capitalize;
@@ -45,9 +46,24 @@
 }
 
 .about-content ul li span:last-child {
-  font-size: 1rem;
   font-weight: 600;
   font-family: var(--font-family-1);
   color: var(--light-font-color);
   letter-spacing: 0.2px;
 }
+
+/* media-queries */
+
+/* width >= 1528px && height >= 920px */
+@media only screen and (min-width: 1528px) and (min-height: 920px) {
+  .about-content {
+    font-size: 135%;
+  }
+}
+
+/* @media only screen and (max-width: 1150px)  {
+  .about-content {
+    font-size: 1.1rem;
+  }
+} */
+
