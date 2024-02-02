@@ -259,7 +259,7 @@ p {
 /* width <= 1400px && height >= 700px*/
 @media only screen and (max-width: 1400px) and (min-height: 920px) {
   html {
-    font-size: 74%;
+    font-size: 75%;
   }
 }
 
