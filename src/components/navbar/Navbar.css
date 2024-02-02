@@ -105,6 +105,22 @@
 
 /* media-queries */
 
+/* width <= 1527px && height >= 1050px */
+@media only screen and (max-width: 1528px) and (min-height: 1000px) {
+  .navbar-container .logo {
+    font-size: 5.5rem;
+  }
+
+  .nav-links li a {
+    font-size: 2.3rem;
+  }
+
+  .switch-mode-btn {
+    width: 6rem;
+    font-size: 4.5rem;
+  }
+}
+
 /* width >= 1528px && height >= 920px */
 @media only screen and (min-width: 1528px) and (min-height: 920px) {
   .navbar-container .logo {
@@ -121,22 +137,8 @@
   }
 }
 
-/* 
-@media only screen and (max-width: 1527px) and (min-height: 1000px) {
-  .navbar-container .logo {
-    font-size: 4rem;
-  }
-
-  .nav-links {
-    gap: 1.5rem;
-  }
-
-  .nav-links li a {
-    font-size: 1.6rem;
-  }
-}
-
-@media only screen and (max-width: 1150px) and (min-height: 920px) {
+/* width <= 1180px && height >= 920px */
+@media only screen and (max-width: 1180px) and (min-height: 920px) {
   .navbar-container {
     flex-direction: column;
     gap: 2rem;
@@ -145,13 +147,20 @@
     gap: 2.5rem;
   }
   .nav-links li a {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 }
 
-@media only screen and (max-width: 850px) and (min-height: 900px) {
+/* width <= 1180px && height >= 920px */
+@media only screen and (max-width: 1000px) and (min-height: 700px) {
   .navbar-container {
     flex-direction: column;
     gap: 2rem;
   }
-} */
+  .nav-links {
+    gap: 2.5rem;
+  }
+  .nav-links li a {
+    font-size: 2.2rem;
+  }
+}

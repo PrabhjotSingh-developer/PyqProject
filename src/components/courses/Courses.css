@@ -77,6 +77,16 @@
 
 /* media-queries */
 
+/* width <= 1527px && height >= 1050px */
+@media only screen and (max-width: 1528px) and (min-height: 1000px) {
+  .course-card {
+    font-size: 130%;
+  }
+  .course-card::before {
+    width: 0.6rem;
+  }
+}
+
 /* width >= 1528px && height >= 920px */
 @media only screen and (min-width: 1528px) and (min-height: 920px) {
   .course-card {
@@ -87,8 +97,3 @@
   }
 }
 
-/* @media only screen and (max-width: 1150px) {
-  .courses-cards-container {
-    font-size: 1.2rem;
-  }
-} */

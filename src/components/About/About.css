@@ -54,6 +54,13 @@
 
 /* media-queries */
 
+/* width <= 1527px && height >= 1050px */
+@media only screen and (max-width: 1528px) and (min-height: 1050px) {
+  .about-content {
+    font-size: 135%;
+  }
+}
+
 /* width >= 1528px && height >= 920px */
 @media only screen and (min-width: 1528px) and (min-height: 920px) {
   .about-content {

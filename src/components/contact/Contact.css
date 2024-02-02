@@ -36,6 +36,13 @@
 
 /* media-queries */
 
+/* width <= 1527px && height >= 1050px */
+@media only screen and (max-width: 1528px) and (min-height: 1000px) {
+  .contact-content {
+    font-size: 135%;
+  }
+}
+
 /* width >= 1528px && height >= 920px */
 @media only screen and (min-width: 1528px) and (min-height: 920px) {
   .contact-content {
@@ -43,8 +50,3 @@
   }
 }
 
-/* @media only screen and (max-width: 1150px) {
-  .contact-content {
-    font-size: 1.1rem;
-  }
-} */
