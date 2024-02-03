@@ -25,7 +25,7 @@ const Navbar = () => {
     {
       id: "3",
       name: "Contact",
-      path: "",
+      path: "#contact",
     },
     {
       id: "4",
@@ -52,6 +52,8 @@ const Navbar = () => {
         {/* nav-links */}
         <ul className="nav-links d-flex align-center">
           {arr.map((item) => (
+            (item.id === ("1"||"4"))?
+            (
             <li>
               <Link
                 to={item.path}
@@ -64,7 +66,16 @@ const Navbar = () => {
               >
                 {item.name}
               </Link>
-            </li>
+            </li>):(
+              <li>
+                    <a href={item.path}  onClick={() => setActive(item.id)}
+                className={`${
+                  item.name === "Home" && isActive === false
+                    ? "active-nav-link"
+                    : ""
+                } ${isActive === item.id ? "active-nav-link" : ""}`}>{item.name}</a>
+              </li>
+            )
           ))}
 
           {/* <li>
