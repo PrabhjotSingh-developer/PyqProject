@@ -204,6 +204,7 @@ p {
   :root {
     --padding-inline: 10rem;
   }
+  
 }
 
 /* width <= 1527px && height >= 800px */
@@ -225,7 +226,7 @@ p {
   html {
     font-size: 74%;
   }
-  
+
   .section-heading {
     font-size: 5rem;
     margin-bottom: 6rem;
