@@ -277,12 +277,12 @@ p {
   }
 }
 
-
 /* width >= 1528px && height >= 920px */
 @media only screen and (min-width: 1528px) and (min-height: 920px) {
   html {
     font-size: 78%;
   }
+  
 
   .section-heading {
     font-size: 5rem;
