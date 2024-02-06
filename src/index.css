@@ -300,7 +300,6 @@ p {
 }
 
 
-
 /* when 1850px >= width && height <= 780px  */
 @media only screen and (min-width: 1850px) and (max-height: 779px) {
   html {
