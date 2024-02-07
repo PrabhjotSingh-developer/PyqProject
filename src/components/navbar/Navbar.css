@@ -153,6 +153,7 @@
 }
 
 
+
 /* width <= 1180px && height >= 920px */
 @media only screen and (max-width: 1000px) and (min-height: 700px) {
   .navbar-container {
