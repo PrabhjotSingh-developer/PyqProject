@@ -137,6 +137,7 @@
   }
 }
 
+
 /* width <= 1180px && height >= 920px */
 @media only screen and (max-width: 1180px) and (min-height: 920px) {
   .navbar-container {
