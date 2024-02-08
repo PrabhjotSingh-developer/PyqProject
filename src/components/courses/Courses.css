@@ -93,6 +93,7 @@
   .course-card {
     font-size: 130%;
   }
+  
   .course-card::before {
     width: 0.6rem;
   }
