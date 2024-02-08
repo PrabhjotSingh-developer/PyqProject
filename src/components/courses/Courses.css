@@ -92,6 +92,7 @@
 @media only screen and (min-width: 1528px) and (min-height: 920px) {
   .course-card {
     font-size: 130%;
+    
   }
 
   .course-card::before {
