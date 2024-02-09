@@ -225,7 +225,7 @@ p {
   html {
     font-size: 74%;
   }
-
+  
   .section-heading {
     font-size: 5rem;
     margin-bottom: 6rem;
@@ -282,7 +282,7 @@ p {
   html {
     font-size: 78%;
   }
-
+  
   .section-heading {
     font-size: 5rem;
     margin-bottom: 6rem;
@@ -293,6 +293,7 @@ p {
     bottom: -1.1rem;
   }
 
+  
   .section-heading::after {
     width: 2.4rem;
     bottom: -2.1rem;

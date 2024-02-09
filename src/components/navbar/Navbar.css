@@ -143,9 +143,11 @@
     flex-direction: column;
     gap: 2rem;
   }
+
   .nav-links {
     gap: 2.5rem;
   }
+  
   .nav-links li a {
     font-size: 2.2rem;
   }
@@ -157,9 +159,11 @@
     flex-direction: column;
     gap: 2rem;
   }
+
   .nav-links {
     gap: 2.5rem;
   }
+  
   .nav-links li a {
     font-size: 2.2rem;
   }
