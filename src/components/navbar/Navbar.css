@@ -68,7 +68,7 @@
   aspect-ratio: 1;
   border-radius: 50%;
   background-color: var(--primary-color);
-  display: none;
+  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
