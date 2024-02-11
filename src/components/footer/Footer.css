@@ -4,9 +4,10 @@ footer {
   width: 100vw;
   padding: 2rem var(--padding-inline);
   color: var(--light-font-color);
-  text-align: center;
+  text-align: left;
   border-top: 1px solid rgba(0, 0, 0, 0.137);
 }
+
 
 footer p {
   font-size: 1.5rem;
