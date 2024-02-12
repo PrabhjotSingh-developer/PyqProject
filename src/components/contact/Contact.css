@@ -9,7 +9,6 @@
 }
 
 .contact-content h3 {
-  
   font-size: 3em;
   font-weight: 600;
   letter-spacing: 0.3px;
@@ -22,6 +21,7 @@
 .contact-content p {
   font-size: 1.7em;
   font-weight: 600;
+  
   font-family: var(--font-family-1);
   color: var(--light-font-color);
   letter-spacing: 0.2px;
